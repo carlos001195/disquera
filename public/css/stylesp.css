@@ -1,0 +1,20 @@
+:root {
+    --cardWidth: 240px;
+    --cardHeight: 280px;
+    --cardMargin: 16px;
+  }
+  
+  html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica;
+    width: 100%;
+  }
+ 
+  .main-section {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    background: #bbb;
+  }
